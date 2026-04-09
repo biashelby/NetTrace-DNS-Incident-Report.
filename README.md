@@ -1,4 +1,4 @@
-# 🔬 The DNS Autopsy — Cybersecurity Incident Case Study
+#### ☕ The DNS Autopsy — Cybersecurity Incident Case Study
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![tcpdump](https://img.shields.io/badge/tcpdump-2C2C2A?style=for-the-badge)
@@ -10,7 +10,7 @@ Investigação de um incidente de rede onde o domínio `www.yummyrecipesforme.co
 
 ---
 
-## 🎯 Competências Demonstradas
+#### ☕ Competências Demonstradas
 
 | Área | Descrição |
 |---|---|
@@ -21,9 +21,9 @@ Investigação de um incidente de rede onde o domínio `www.yummyrecipesforme.co
 
 ---
 
-## 📋 Relatório de Incidente de Segurança Cibernética
+#### ☕ Relatório de Incidente de Segurança Cibernética
 
-### Parte 1 — Resumo do Problema (Análise de Log)
+#### Parte 1 — Resumo do Problema (Análise de Log)
 
 A análise dos registros do analisador de protocolos revelou uma interrupção na comunicação entre o cliente e o servidor de nomes.
 
@@ -54,7 +54,7 @@ Cliente recebe erro — sem resolução de nome — site inacessível
 
 ---
 
-### Parte 2 — Análise e Investigação
+#### Parte 2 — Análise e Investigação
 
 **Cronologia do incidente:**
 
@@ -80,7 +80,7 @@ Interrupção do processo DNS no servidor **ou** alteração não autorizada em 
 
 ---
 
-## 🐍 Ferramenta de Validação Pós-Incidente (Python)
+#### ☕ Ferramenta de Validação Pós-Incidente (Python)
 
 Script desenvolvido para verificar a disponibilidade do serviço DNS após manutenção, simulando a conectividade na porta `UDP/53`.
 
@@ -122,7 +122,7 @@ python verify_dns.py
 
 ---
 
-## 🗂️ Estrutura do Repositório
+#### ☕ Estrutura do Repositório
 
 ```
 dns-autopsy/
@@ -132,13 +132,6 @@ dns-autopsy/
 ├── capture_sample.txt        # Amostra do log tcpdump analisado
 └── README.md
 ```
-
----
-
-## 🎓 Sobre a Autora
-
-**Bianca Borges Da Silva** — Estudante de Ciência da Computação e Embaixadora Universitária da DIO.  
-Foco em segurança defensiva, análise de tráfego de rede e resposta a incidentes.
 
 ---
 
